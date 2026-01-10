@@ -19,25 +19,25 @@ I calculated the **Normalized Burn Ratio (NBR)** and **Delta NBR (dNBR)** to cla
     * **Pre-fire:** October 2019
     * **Active Fire:** November 2019
     * **Post-fire:** January 2020
-* [cite_start]**Projection:** WGS84 / UTM Zone 56S[cite: 3].
+* **Projection:** WGS84 / UTM Zone 56S.
 
 ### 2. Georeferencing (QGIS)
-I downloaded a specialized wildfire map from Copernicus (CEMS). [cite_start]Since the raw map did not line up perfectly with real-world coordinates, I fixed it using QGIS[cite: 18].
-* [cite_start]**Method:** 2nd-order Polynomial Transformation[cite: 23].
-* [cite_start]**Accuracy:** Achieved a low RMS error of **0.82**, ensuring a perfect fit[cite: 27].
+I downloaded a specialized wildfire map from Copernicus (CEMS). Since the raw map did not line up perfectly with real-world coordinates, I fixed it using ArcMap.
+* **Method:** 2nd-order Polynomial Transformation.
+* **Accuracy:** Achieved a low RMS error of **0.82**, ensuring a perfect fit.
 
 ### 3. Visual Analysis
 I compared the landscape using different color combinations to see the fire clearly:
 * **True Color (RGB):** Shows the smoke and fire as our eyes would see it.
-* [cite_start]**False Color (NIR, Red, Green):** Makes healthy plants look **bright red** and burned areas look **dark/black**[cite: 88]. This makes it much easier to see the damage.
+* **False Color (NIR, Red, Green):** Makes healthy plants look **bright red** and burned areas look **dark/black**. This makes it much easier to see the damage.
 
 ### 4. Burn Severity Calculation (GEE)
-[cite_start]I used a script in Google Earth Engine to calculate the burn ratios using specific satellite bands (Band 8 NIR and Band 12 SWIR)[cite: 168].
+I used a script in Google Earth Engine to calculate the burn ratios using specific satellite bands (Band 8 NIR and Band 12 SWIR).
 
 * **NBR (Normalized Burn Ratio):** Measures healthy vs. burned vegetation.
     * *Formula:* `(NIR - SWIR) / (NIR + SWIR)`
 * **dNBR (Delta NBR):** Calculates the difference before and after the fire to show severity.
-    * [cite_start]*Formula:* `PreFire NBR - PostFire NBR`[cite: 169].
+    * *Formula:* `PreFire NBR - PostFire NBR`.
 
 ## 📈 Key Results
 * **Vegetation Loss:** The November 2019 images clearly showed large scars where vegetation was destroyed.
@@ -46,7 +46,7 @@ I compared the landscape using different color combinations to see the fire clea
     2.  Low Severity
     3.  Moderate-Low Severity
     4.  Moderate-High Severity
-    5.  [cite_start]High Severity (Red)[cite: 255].
+    5.  High Severity (Red).
 
 ## 🔗 GEE Code
 You can view the full Google Earth Engine script used for this analysis here:
