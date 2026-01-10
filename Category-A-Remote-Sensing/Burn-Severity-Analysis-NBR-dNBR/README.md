@@ -21,7 +21,7 @@ I calculated the **Normalized Burn Ratio (NBR)** and **Delta NBR (dNBR)** to cla
     * **Post-fire:** January 2020
 * **Projection:** WGS84 / UTM Zone 56S.
 
-### 2. Georeferencing (QGIS)
+### 2. Georeferencing (ArcMap)
 I downloaded a specialized wildfire map from Copernicus (CEMS). Since the raw map did not line up perfectly with real-world coordinates, I fixed it using ArcMap.
 * **Method:** 2nd-order Polynomial Transformation.
 * **Accuracy:** Achieved a low RMS error of **0.82**, ensuring a perfect fit.
