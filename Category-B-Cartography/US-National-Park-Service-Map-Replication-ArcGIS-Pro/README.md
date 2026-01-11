@@ -8,7 +8,7 @@ I focused on the **Rocky Mountain National Park** to create a map that is not on
 ## 🗺️ Map Visualization
 Here is the final map design, featuring the distinct NPS visual style:
 
-![Rocky Mountain National Park Map](rocky_mountain_map.png)
+![Rocky Mountain National Park Map]([rocky_mountain_map.png](https://github.com/Abdul-Haleem-Khan-RS-GIS/GIS-RemoteSensing-Portfolio/blob/624c748b10ed0609bf02df5e7fff4939254d39e6/Category-B-Cartography/US-National-Park-Service-Map-Replication-ArcGIS-Pro/Rocky%20Mountain%20NPS%20Maps.jpg))
 
 ## 🎯 Objectives
 * **Style Replication:** Accurately recreating the standardized symbols, fonts, and colors used by the US National Park Service.
