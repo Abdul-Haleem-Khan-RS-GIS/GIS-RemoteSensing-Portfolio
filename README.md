@@ -16,7 +16,7 @@ I specialize in **ArcGIS Pro**, **QGIS**, and **Google Earth Engine (GEE)** to s
 
 ### 🗺️ [Category B: Cartography](Category-B-Cartography)
 *High-quality map design for presentations and web use.*
-* **Riyadh Postcode Map:** Creating accurate postal boundaries in GeoJSON format.
+* **Riyadh Postcode Geospatial Mapping:** Creating accurate postal boundaries in GeoJSON format.
 * **National Park Replication:** Recreating the iconic US National Park Service map style.
 * **Zurich Demographics:** Thematic mapping of population density.
 
