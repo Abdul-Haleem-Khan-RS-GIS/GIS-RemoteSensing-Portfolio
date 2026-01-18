@@ -50,7 +50,7 @@ I used a script in Google Earth Engine to calculate the burn ratios using specif
 
 ## 🔗 GEE Code
 You can view the full Google Earth Engine script used for this analysis here:
-[cite_start][Link to GEE Script](Code https://code.earthengine.google.com/3d63dfae52163ab0bc99c0ae1a894422)
+(Code https://code.earthengine.google.com/3d63dfae52163ab0bc99c0ae1a894422)
 
 ---
 *This project demonstrates proficiency in remote sensing, spectral index calculation, and spatial analysis for environmental monitoring.*
