@@ -4,7 +4,7 @@ High-quality map design for presentations and web use.
 
 ## 📂 Projects in this Category
 
-### [1. Riyadh Postcode Map](./EXACT-FOLDER-NAME-HERE)
+### [1. Riyadh-Postcode-Geospatial-Mapping](./EXACT-FOLDER-NAME-HERE)
 * **Goal:** To create accurate postal boundaries for Riyadh in GeoJSON format.
 
 ### [2. National Park Replication](./EXACT-FOLDER-NAME-HERE)
